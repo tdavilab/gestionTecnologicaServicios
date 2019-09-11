@@ -1,4 +1,4 @@
-# gestionTecnologica Micro Servicios
+# Gestion Tecnologica MicroServicios
 Calculadora
 
 Gestión Tecnológica - 2019-3
