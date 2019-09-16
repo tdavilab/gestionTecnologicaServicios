@@ -19,7 +19,7 @@ https://docs.docker.com/compose/install/ </br>
 Para ejecutar la aplicación dockerizada es necesario seguir los siguientes pasos dentro de la terminal:
 <ol>
   <li> Si tiene el proyecto en su maquina, acceda a la ubicacion del mismo por medio del comando CD, de lo contrario clonelo usando <b> sudo git clone https://github.com/lealdaniel00/gestionTecnologicaServicios.git </b> </li>
-  <li> Acceda al la ubicacion del proyecto clonado por medio de <b>cd </b>  cd gestionTecnologicaServicios</li>
+  <li> Acceda al la ubicacion del proyecto clonado por medio de <b>cd </b>  (cd gestionTecnologicaServicios)</li>
   <li> Correr el proyecto usando <b>docker-compose up --build</b> </li>
   <li> desde el navegador acceda a la siguiente direccion </li>
   <li> http://0.0.0.0:5006/show_all </li>
