@@ -10,13 +10,13 @@ app = Flask(__name__)
 
 @app.route("/<num1>/<num2>/<signo>")
 def default(num1,num2,signo):
-	if signo == '+':
+	if signo == 'Sumar':
 		resultado=requests.get('http://suma:5000/'+num1+'/'+num2).text
-	elif signo == '-':
+	elif signo == 'Restar':
 		resultado=requests.get('http://resta:5000/'+num1+'/'+num2).text
-	elif signo == '*':
+	elif signo == 'Multiplicar':
 		resultado=requests.get('http://multiplicacion:5000/'+num1+'/'+num2).text
-	elif signo == '/':
+	elif signo == 'Dividir':
 		resultado=requests.get('http://division:5000/'+num1+'/'+num2).text
 	return resultado
 

@@ -15,7 +15,7 @@ def send():
 	signo = request.form['action']	
 	num1 = request.form["num1"]
 	num2 = request.form["num2"]
-	resultado=requests.get('http://app:5000/'+num1+'/'+num2+'/'+signo)
+	resultado=requests.get('http://app:5000/'+num1+'/'+num2+'/'+signo).text
 	return render_template('/show_all.html', string_variable=resultado)
 
 if __name__ == "__main__":
