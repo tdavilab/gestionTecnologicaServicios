@@ -1,23 +1,3 @@
-
-Es necesario tener instalado docker, por lo tanto si no lo tiene instalado dentro de su maquina y usa ubuntu, es recomendable seguir las siguientes instrucciones: </br>
-https://docs.docker.com/install/linux/docker-ce/ubuntu/ </br>
-Adicionalmente en necesario contar tambien con docker-compose, si no lo tiene instalado, siga el siguiente tutorial. </br>
-https://docs.docker.com/compose/install/ </br>
-
-</br>
-</br>
-Para ejecutar la aplicación dockerizada es necesario seguir los siguientes pasos dentro de la terminal:
-<ol>
-  <li> Si tiene el proyecto en su maquina, acceda a la ubicacion del mismo por medio del comando CD, de lo contrario clonelo usando <b> sudo git clone https://github.com/lealdaniel00/gestionTecnologicaServicios.git </b> </li>
-  <li> Acceda al la ubicacion del proyecto clonado por medio de <b>cd </b>  (cd gestionTecnologicaServicios)</li>
-  <li> Correr el proyecto usando <b>sudo docker-compose up --build</b> </li>
-  <li> desde el navegador acceda a la siguiente direccion </li>
-  <li> http://0.0.0.0:5006/show_all </li>
-  <li> podra <b>sumar, restar, dividir y multiplicar</b> dos numeros usando microservicios </li>
-</ol>
-
-
-
 # Python Calculator - Microservices
 A simple calculator made in python, where each basic operation is a microservice that runs in a different Docker container. 
 
